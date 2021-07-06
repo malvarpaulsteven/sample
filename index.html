@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rctcpus.com</title>
+    <link rel="shortcut icon" href="rctlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="main-header">
+         
+        <div class="container">  
+            
+            <h1>COMPUTER PROGRAMMERS AND USERS SOCIETY</h1>
+        
+        </div> 
+   
+    </header>
+
+    <nav class="navbar">
+        
+       
+            
+            <h1 class="fl-left">Rizal College of Taal</h1>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="missionVision.html">Mission and Vission</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="events.html">Programs and Events</a></li>
+                <li><a href="about.html">About CPUS</a></li>
+            </ul>
+        
+
+    </nav>
+
+    
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="RCT1.jpg" style="width:100%">
+          <div class="text">Rizal College of Taal</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="RCT2.jpg" style="width:100%">
+          <div class="text">Rizal College of Taal</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="RCT3.jpg" style="width:100%">
+          <div class="text">Rizal College of Taal</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+  
+    <div class="container">
+
+    <section class="main">
+
+            
+            <video width="734" height="400" controls>
+                <source src="Preview.mp4" type="video/mp4">
+                <source src="video.ogg" type="video/ogg">
+                <source src="video.webm" type="video/webm">
+              </video>
+
+              <h1>History</h1>
+            <p>
+                On May 22, 1923, the Rizal Institute came to existence in Taal, Batangas, founded by the brothers Quirino, Jose, Juan Ramon and Mariano Eleazar of Lucban, Tayabas (now Quezon). Stocks of the corporation were later said to civic-minded people of Taal and Lemery, among whom was Dr. Roman B. Montenegro, who become the school's first president and in whose memory the high school building is named. 
+                <br>
+                <br>
+                Its primary purpose was to offer secondary building which the founders deemed was the need of the community at that time. As early as 1930-1931, complete secondary education was finally offered by the school with an enrolment of 212 students.
+            </p>
+            
+    </section>
+
+    <section class="announcement">
+        <h4>Announcement</h4>
+        <ul>
+            <li><a href="officers.html">CPUS Officers S.Y. 2020-2021.</a></li>
+            <li><a href="VirtualAcquaitance.html">CPUS Virtual Acquaintance Party</a></li>
+            <li><a href="acquaintance.html">CPUS Virtual Model 2020.</a></li>  
+        </ul>
+
+
+    </section>
+    
+    <section class="sidebar">
+
+            <p><b>Address</b></p>
+            <p>G. Marella St., Taal, Batangas</p>
+            <p><b>Contact Number</b></p>
+            <p>(043) 740-2238</p>
+            <p><b>Website</b></p>
+            <a href=" http://www.rctaal.edu.ph/">www.rctaal.edu.ph</a>
+            
+    </section>
+  
+    <!---->
+    <section class="CHED">
+        <a href="https://ched.gov.ph/">
+        <div class="Ched"><img src="img/CHED-.jpg"></div>
+        </a>
+    </section>
+
+    <!---->
+    <section class="DEPED">
+        <a href="https://www.deped.gov.ph/">
+        <div class="deped"><img src="img/DEPED.jpg"></div>
+        </a>
+    </section>
+    <!---->
+
+    <section class="TESDA">
+        <a href="https://www.tesda.gov.ph/">
+        <div class="tesda"><img src="img/TESDA.jpg"></div>
+        </a>
+    </section>
+   
+    </div>
+
+    <!---->
+
+    <footer class="main-footer">
+
+        <h3>Copyright &copy; 2020 rctcpus@gmail.com</h3>
+    </footer>
+
+    <script>
+                    var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+    </script>
+</body>
+
+</html>

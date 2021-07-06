@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-header {
+    color: white;
+    background-color: teal;
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: #555;
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.navbar ul {
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.navbar h1 {
+    float: left;
+    color: white;
+    margin-left: 100px;
+}
+.navbar li {
+    display: inline;
+    margin: 3px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.navbar a:hover{
+    color:teal;
+    transition: .3s;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+  
+    
+}
+
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding: 0;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.main {
+    float: left;
+    box-sizing: border-box;
+    width: 70%;
+    padding: 0 30px;
+    margin-top: 50px;
+}
+
+
+.main h1{
+    color: teal;
+}
+
+.main p{
+    text-align: justify;
+    
+}
+
+.announcement{
+    float: right;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    width: 30%;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: justify;
+    line-height: normal;
+}
+.announcement a{
+    color: red;
+    font-size: 16px;
+}
+
+.announcement h4{
+    color: teal;
+    text-align: center;
+}
+
+.sidebar {
+    float: right;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    width: 30%;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: normal;
+    font-size: 16px;
+    
+}
+.Ched{
+    float: right;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: normal;
+    font-size: 16px;
+   
+}
+
+
+.DEPED{
+    float: right;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: normal;
+    font-size: 16px;
+   
+}
+
+
+.TESDA{
+    float: right;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: normal;
+    font-size: 16px;
+   
+}
+
+.main-footer {
+    background-color: #555;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    clear: both;
+}
+
